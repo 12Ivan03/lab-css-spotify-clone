@@ -6,3 +6,176 @@ Green: #00B172
 White: #FFF
 
 */
+/* Navigation bar */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ .Logo-Spotify {
+    height: 2rem;
+    margin-left: 1rem;
+ }
+
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+    margin-bottom: 0rem;
+    margin: 0;
+    padding: 0;
+ }
+
+ ul {
+    display: flex;
+ }
+
+ li {
+    margin-right: 1rem;
+    list-style: none;
+    font-weight: 200;
+    font-size: small; 
+}
+
+/* picture-text opening - named header -  */
+
+.header {
+    margin-top: 0rem;
+    background-image: url(../images/landing.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.title {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    font-size: xxx-large;
+}
+
+.paragraph-title {
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+
+/* middle block of the webpage */
+
+.info-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.into-option-title {
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: large;
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.15rem;
+    text-decoration-color:  #00B172;
+    text-underline-offset: 0.45rem;
+}
+
+.main-info-content {
+    display: flex;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    padding: 1rem;
+    font-size: small;
+    width: 10rem;
+    
+}
+
+.info-content p {
+    margin-top: 0;
+}
+
+.info-content img {
+    height: 3.5rem;
+}
+
+.content-title {
+    font-size: medium;
+    color: #00B172;
+    font-weight: 600;
+}
+
+.info-content  p {
+    color:rgb(152, 152, 152);
+}
+
+
+/* Green footer of spotify */
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: #00B172;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    height: 27rem;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-top: 0;
+    color: #FFF;
+}
+
+.pic-spotify {
+    height: 20rem;
+    display: flex;
+    margin-right: 3rem;
+}
+.white-spotify-logo {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 4rem;
+}
+
+.title-text-footer{
+    margin-top: 0;
+    font-weight: 400;
+    font-size: larger;
+    text-decoration: underline;
+    text-decoration-thickness: 0.15rem;
+    text-underline-offset: 0.45rem;
+}
+
+.text-footer {
+    width: 13rem;
+}
+
+.text-footer h2 {
+    font-size: medium;
+    font-weight: 600;
+}
+
+.text-footer p {
+    font-size: small;
+    font-weight: 100;
+}
